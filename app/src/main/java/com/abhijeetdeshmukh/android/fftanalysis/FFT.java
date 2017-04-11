@@ -140,6 +140,7 @@ public class FFT {
     }
 
     private void sumOfAmplitudeFFT(){
+
         mAmplitudeFFT = new double[mFFTX.length];
         double[] amplitudeFFT = getAmplitudeFFT();
         for (int z=0; z< mAmplitudeFFT.length; z++ ){
